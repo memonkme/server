@@ -1,1 +1,48 @@
 
+{
+  "users": [
+    { "id": 1, "response": {} }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "questions": [
+    {
+      "description":"You consider yourself as",
+      "type": "radio",
+      "options":["Male", "Female", "Transgender", "Gay", "Other"],
+      "category":"Personal"
+      
+    },
+    {
+      "description":"You consider yourself as",
+      "type": "boolean",
+      "category":"Personal"
+    },
+    {
+      "description":"You consider yourself as",
+      "type": "info",
+      "category":"Information"
+    }
+  ],
+"suggestions": [
+    {
+      "description":"You consider yourself as",
+      "type": "radio",
+      "options":["Male", "Female", "Transgender", "Gay", "Other"],
+      "category":"Personal"
+      
+    },
+    {
+      "description":"You consider yourself as",
+      "type": "boolean",
+      "category":"Personal"
+    },
+    {
+      "description":"You consider yourself as",
+      "type": "info",
+      "category":"Information"
+    }
+  ]
+}
